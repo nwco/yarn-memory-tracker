@@ -1,6 +1,6 @@
 #!/bin/bash
 
-YARN_ENV=$HADOOP_HOME/etc/hadoop/yarn-env.sh
+YARN_ENV=/opt/cloudera/parcels/CDH-5.4.7-1.cdh5.4.7.p0.3/etc/hadoop/conf.empty/yarn-env.sh
 CONTAINER_PATTERN="container_*"
 MEM_GREP_PATTERN="INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.monitor.ContainersMonitorImpl: Memory usage of ProcessTree"
 
